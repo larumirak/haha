@@ -1,0 +1,74 @@
+{
+  "name": "hotdq",
+  "title": "Horde of the Dragon Queen",
+	"description": "<p>Contains various compendia for importing into your current world for the adventure.</p>",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "authors": [
+    "WotC",
+    "Roll20",
+    "5eTools",
+    "R20Converter"
+  ],
+  "keywords": [
+		"adventure",
+		"campaign",
+		"forgotten realms",
+		"content packs"
+  ],
+	"version": "0.1.2",
+	"coreVersion": "0.6.6",
+	"minimumCoreVersion": "0.5.4",
+	"compatibleCoreVersion": "0.7.0",
+	"system": "dnd5e",
+	"minimumSystemVersion": "0.90",
+	"compatibleSystemVersion": "0.96",
+	"readme": "README.md",
+	"bugs": "",
+	"url": "",
+	"changelog": "https://wiki.5e.tools/index.php/Foundry:Changelog_Adventures",
+	"manifest": "https://foundry.5e.tools/plutonium/hotdq/module.json",
+	"download": "https://foundry.5e.tools/plutonium/hotdq/hotdq.zip",
+  "packs": [
+    {
+      "name": "journal",
+      "label": "Handouts (HOTDQ)",
+      "path": "packs/journal.db",
+      "module": "hotdq",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "actors",
+      "label": "Actors (HOTDQ)",
+      "path": "packs/actors.db",
+      "module": "hotdq",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "Items (HOTDQ)",
+      "path": "packs/items.db",
+      "module": "hotdq",
+      "entity": "Item"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes (HOTDQ)",
+      "path": "packs/scenes.db",
+      "module": "hotdq",
+      "entity": "Scene"
+    },
+    {
+      "name": "tables",
+      "label": "Rollable Tables (HOTDQ)",
+      "path": "packs/tables.db",
+      "module": "hotdq",
+      "entity": "RollTable"
+    }
+  ]
+}
